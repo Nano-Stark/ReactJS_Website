@@ -1,14 +1,14 @@
 import axios from 'axios';
 
 //comment out when to deploy
-//const host = 'http://localhost:8080';
-//
-let host;
-if (process.env.NODE_ENV === 'develoopment'){
+const host = 'http://localhost:8080';
+
+/*USE THIS IN DEPLOYMENT*//*
+if (process.env.NODE_ENV === 'development'){
     host = 'http://localhost:8080';
 }else{
     host = 'http://localhost:8080';//host address
-}
+}*/
 
 const API  = {
     makeFileURL: (url, token) => {

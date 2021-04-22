@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && robocopy \"C:/Users/User/Desktop/New folder (2)/programming files/Github/Reactjs_website/Reactjs_website/website/build/\" \"C:/Users/User/Desktop/New folder (2)/programming files/Github/Reactjs_website/Reactjs_website/websiteBackend/client/\" /E",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

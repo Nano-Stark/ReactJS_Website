@@ -1,10 +1,10 @@
 {
-  "db": {
+  "dbl": {
     "host": "localhost",
     "port": 27017,
     "database": "mywebsite",
     "password": "",
-    "name": "db",
+    "name": "dbl",
     "connector": "mongodb",
     "user": ""
   },
@@ -14,5 +14,16 @@
     "provider": "filesystem",
     "root": "./server/storage",
     "nameConflict": "makeUnique"
+  },
+  "db": {
+    "host": "reactjs-website-cluster.9xbvj.mongodb.net",
+    "port": 27017,
+    "url": "mongodb+srv://stark:stark70@reactjs-website-cluster.9xbvj.mongodb.net/mywebsite?retryWrites=true&w=majority",
+    "database": "mywebsite",
+    "password": "stark70",
+    "name": "db",
+    "user": "stark",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
   }
 }

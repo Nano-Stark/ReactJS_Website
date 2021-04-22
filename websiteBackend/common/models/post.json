@@ -42,7 +42,7 @@
       "foreignKey": ""
     },
     "Comments": {
-      "type":"hasMany",
+      "type": "hasMany",
       "model": "Comment",
       "foreignKey": ""
     }
