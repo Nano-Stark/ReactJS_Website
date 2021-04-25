@@ -7,7 +7,7 @@ import axios from 'axios';
 if (process.env.NODE_ENV === 'development'){
     host = 'http://localhost:8080';
 }else{
-    host = 'https://powerful-citadel-92824.herokuapp.com/';//host address
+    host = 'https://stark-website.herokuapp.com/';//host address
 }
 
 const API  = {
