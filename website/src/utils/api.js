@@ -7,7 +7,7 @@ import axios from 'axios';
 if (process.env.NODE_ENV === 'development'){
     host = 'http://localhost:8080';
 }else{
-    host = 'https://boiling-oasis-25010.herokuapp.com/';//host address
+    host = 'https://still-woodland-21310.herokuapp.com/';//host address
 }
 
 const API  = {
