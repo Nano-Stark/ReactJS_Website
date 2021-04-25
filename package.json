@@ -1,7 +1,7 @@
 {
     "name": "websiteBackend",
     "version": "1.0.0",
-    "main": "client/static",
+    "main": "server/boot/root.js",
     "engines": {
       "node": ">=6"
     },
