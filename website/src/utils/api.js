@@ -1,14 +1,14 @@
 import axios from 'axios';
 
 //comment out when to deploy
-const host = 'http://localhost:8080';
+//const host = 'http://localhost:8080';
 
-/*USE THIS IN DEPLOYMENT*//*
+/*USE THIS IN DEPLOYMENT*/
 if (process.env.NODE_ENV === 'development'){
     host = 'http://localhost:8080';
 }else{
-    host = 'http://localhost:8080';//host address
-}*/
+    host = 'https://boiling-oasis-25010.herokuapp.com/';//host address
+}
 
 const API  = {
     makeFileURL: (url, token) => {
