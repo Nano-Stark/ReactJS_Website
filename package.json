@@ -1,7 +1,7 @@
 {
     "name": "websiteBackend",
     "version": "1.0.0",
-    "main": "server/boot/root.js",
+    "main": "./websiteBackend/server/boot/root.js",
     "engines": {
       "node": ">=6"
     },
