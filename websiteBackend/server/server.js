@@ -5,11 +5,15 @@
 
 'use strict';
 
+const {environ, hot} = require('./config');
 const { Role } = require('loopback');
 const loopback = require('loopback');
 const boot = require('loopback-boot');
 
 const app = module.exports = loopback();
+
+console.log(`HOT IS ${hot}`);
+console.log(`ENV IS ${environ}`);
 
 app.start = function() {
   // start the web server
@@ -134,6 +138,7 @@ app.models.Role.find({where: {name: 'editor'}}, (err, roles) => {
   }
 });
 
+console.log('LAST LINE OF SERVER.JS FILE');
 
 
 
