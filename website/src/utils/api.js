@@ -2,15 +2,15 @@ import axios from 'axios';
 
 //comment out when to deploy
 //const host = 'http://localhost:8080';
-//const host = "https://stark-website.herokuapp.com";
+const host = "https://stark-website.herokuapp.com";
 
 /*USE THIS IN DEPLOYMENT*/
-let host;
+/*let host;
 if (process.env.NODE_ENV === 'development'){
     host = 'http://localhost:8080';
 }else{
     host = 'https://stark-website.herokuapp.com';//host address
-}
+}*/
 
 const API  = {
     makeFileURL: (url, token) => {
