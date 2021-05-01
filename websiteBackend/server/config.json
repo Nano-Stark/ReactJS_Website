@@ -1,6 +1,6 @@
 {
   "restApiRoot": "/api",
-  "host": "0.0.0.0",
+  "host": "https://stark-website.herokuapp.com",
   "port": 8080,
   "remoting": {
     "context": false,

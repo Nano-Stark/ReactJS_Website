@@ -1,1 +1,1 @@
-web: node ./websiteBackend/server/server.js
+web: node ./websiteBackend/server/server.js && serve -s client
